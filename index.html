@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="bg-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+
+    <header>
+        <nav>
+            <div class="logo text-gradient">Portfolio</div>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero section">
+        <div class="hero-content">
+            <h1 class="text-gradient">Selamat Datang di Portfolio Saya</h1>
+            <p>Web Developer | Designer | Creative Thinker</p>
+            <img src="doraemon.jpg" alt="Profile Picture" class="hero-profile">
+        </div>
+    </section>
+
+    <section id="about" class="about section">
+        <h2 class="text-gradient">Tentang Saya</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="doraemon.jpg" alt="Profile Picture">
+                <div class="social-links">
+                    <a href="#" class="social-icon" title="GitHub">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="#" class="social-icon" title="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://www.instagram.com/nayyz4u_/" class="social-icon" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="#" class="social-icon" title="Twitter">
+                        <i class="fab fa-twitter"></i>
+                        <span>Twitter</span>
+                    </a>
+                </div>
+            </div>
+            <div class="about-text">
+                <h3>Web Developer & Designer</h3>
+                <p>Saya adalah seorang web developer yang passionate dalam membuat website yang menarik dan fungsional. Dengan pengalaman dalam HTML, CSS, dan JavaScript, saya siap membantu mewujudkan ide Anda menjadi kenyataan.</p>
+                
+                <div class="skills">
+                    <h4>Keahlian Saya:</h4>
+                    <div class="skill-bars">
+                        <div class="skill">
+                            <span class="skill-name">HTML/CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%">90%</div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%">85%</div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">React</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%">80%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects section">
+        <h2 class="text-gradient">Project Saya</h2>
+        <div class="project-grid">
+            <div class="project-card" data-category="e-commerce">
+                <div class="project-image">
+                    <img src="images.png" alt="Project 1">
+                    <div class="project-overlay">
+                        <a href="#" class="project-link">Lihat Detail</a>
+                        <a href="#" class="project-demo">Live Demo</a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span class="tag">E-commerce</span>
+                        <span class="tag">Web App</span>
+                    </div>
+                    <h3>Website E-commerce</h3>
+                    <p>Website toko online dengan fitur keranjang belanja dan pembayaran</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="dashboard">
+                <div class="project-image">
+                    <img src="images (1).jpg" alt="Project 2">
+                    <div class="project-overlay">
+                        <a href="#" class="project-link">Lihat Detail</a>
+                        <a href="#" class="project-demo">Live Demo</a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span class="tag">Dashboard</span>
+                        <span class="tag">Admin Panel</span>
+                    </div>
+                    <h3>Aplikasi Dashboard</h3>
+                    <p>Dashboard admin untuk manajemen data perusahaan</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Vue.js</span>
+                        <span class="tech-tag">Express</span>
+                        <span class="tech-tag">MySQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="landing">
+                <div class="project-image">
+                    <img src="images.jpg" alt="Project 3">
+                    <div class="project-overlay">
+                        <a href="#" class="project-link">Lihat Detail</a>
+                        <a href="#" class="project-demo">Live Demo</a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span class="tag">Landing Page</span>
+                        <span class="tag">UI/UX</span>
+                    </div>
+                    <h3>Landing Page</h3>
+                    <p>Landing page untuk produk startup teknologi</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section">
+        <h2 class="text-gradient">Hubungi Saya</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Lokasi</h3>
+                    <p>Jakarta, Indonesia</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>email@example.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <h3>Telepon</h3>
+                    <p>+62 123 456 789</p>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <i class="fas fa-user"></i>
+                            <input type="text" placeholder="Nama" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <i class="fas fa-envelope"></i>
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <i class="fas fa-pen"></i>
+                            <textarea placeholder="Pesan" required></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <span>Kirim Pesan</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
